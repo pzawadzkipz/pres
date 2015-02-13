@@ -1,0 +1,35 @@
+$mainColor: #0d7dc1;
+
+@mixin border-rad($radius){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+body{
+	color: $mainColor;
+}
+a{
+	text-decoration: none;
+	color: $mainColor;
+	&:hover{
+		color: orange;
+	}
+}
+.bordered{
+	@include border-rad(10px);
+}
+.divek{
+	width: 100px;
+	height: 200px;
+	background: $mainColor;
+}
+
+.ero{
+	color: red;
+}
+.seriousEro{
+	@extend .ero;
+	font-weight: bold;
+	font-size: 30pt;
+}
