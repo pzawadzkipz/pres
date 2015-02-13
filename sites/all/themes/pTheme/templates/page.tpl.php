@@ -22,9 +22,12 @@
 	</div> <!-- /#footer -->
 <?php endif; ?>
 
-	<div class="ero">
-		Eeeerror
-	</div>
-		<div class="seriousEro">
-		Eeeerror
-	</div>
+<div class="ero">
+	Eeeerror
+</div>
+<div class="seriousEro">
+	Eeeerror
+</div>
+<div class="siemaszError">
+	Eeeerror
+</div>
